@@ -18,7 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
         break;
       case "about":
         mainContent.innerHTML =
-          "<h1>Sobre Nosotros</h1><p>Conoce más sobre nuestra historia y de como nos superamos y nos convertmos en restaurante mas furro./p>";
+          `<div id="about-us">
+              <h1>Sobre Nosotros</h1>
+              <p>Conoce más sobre nuestra historia y de cómo nos superamos y nos convertimos en el restaurante más furro.</p>
+              <img src="images/restaurante-furro.jpg" alt="Nuestro Restaurante de Furros" style="max-width: 100%; height: auto;" />
+          </div>`
           
           break;
            case "contact":
